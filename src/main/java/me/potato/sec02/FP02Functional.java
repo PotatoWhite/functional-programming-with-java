@@ -3,7 +3,7 @@ package me.potato.sec02;
 import java.util.List;
 import java.util.function.BinaryOperator;
 
-public class FP2Functional {
+public class FP02Functional {
     public static void main(String[] args) {
         var numbers = List.of(12, 9, 13, 4, 6, 2, 4, 12, 15);
         int sum     = addListFunctional(numbers);
